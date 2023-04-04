@@ -1,0 +1,13 @@
+D:\dev\xmlimporttask\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.AssemblyReference.cache
+D:\dev\xmlimporttask\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\xmlimporttask\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.AssemblyInfoInputs.cache
+D:\dev\xmlimporttask\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.AssemblyInfo.cs
+D:\dev\xmlimporttask\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\dev\xmlimporttask\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.deps.json
+D:\dev\xmlimporttask\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.dll
+D:\dev\xmlimporttask\BusinessLogic\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
+D:\dev\xmlimporttask\BusinessLogic\bin\Debug\netcoreapp3.1\Data.Repository.dll
+D:\dev\xmlimporttask\BusinessLogic\bin\Debug\netcoreapp3.1\Data.Repository.pdb
+D:\dev\xmlimporttask\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.csproj.CopyComplete
+D:\dev\xmlimporttask\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.dll
+D:\dev\xmlimporttask\BusinessLogic\obj\Debug\netcoreapp3.1\BusinessLogic.pdb

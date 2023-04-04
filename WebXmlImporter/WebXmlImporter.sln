@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebXmlImporter", "WebXmlImporter.csproj", "{43B6F45B-CD15-4E4B-BBA6-DA4AB8D700B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Repository", "..\Data.Repository\Data.Repository.csproj", "{BE75D4D0-1A88-450F-A2DA-8DE0252546B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "..\BusinessLogic\BusinessLogic.csproj", "{C6C0C4EE-4529-4F2F-91E8-686E4C26199B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDataExtractManager", "..\XmlDataExtractManager\XmlDataExtractManager.csproj", "{26437401-C0D6-45F6-94EE-12AC4E7A12F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{164E118E-6C59-4D78-9F41-47BFA989E23B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "..\IntegrationTests\IntegrationTests.csproj", "{2F5924D9-A3BE-45BE-8BDF-6A6A82A19ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "..\UnitTests\UnitTests.csproj", "{7B3F5A27-3C62-4D0E-A351-1E3C1F22ACAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43B6F45B-CD15-4E4B-BBA6-DA4AB8D700B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B6F45B-CD15-4E4B-BBA6-DA4AB8D700B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B6F45B-CD15-4E4B-BBA6-DA4AB8D700B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B6F45B-CD15-4E4B-BBA6-DA4AB8D700B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE75D4D0-1A88-450F-A2DA-8DE0252546B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE75D4D0-1A88-450F-A2DA-8DE0252546B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE75D4D0-1A88-450F-A2DA-8DE0252546B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE75D4D0-1A88-450F-A2DA-8DE0252546B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C0C4EE-4529-4F2F-91E8-686E4C26199B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C0C4EE-4529-4F2F-91E8-686E4C26199B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C0C4EE-4529-4F2F-91E8-686E4C26199B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C0C4EE-4529-4F2F-91E8-686E4C26199B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26437401-C0D6-45F6-94EE-12AC4E7A12F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26437401-C0D6-45F6-94EE-12AC4E7A12F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26437401-C0D6-45F6-94EE-12AC4E7A12F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26437401-C0D6-45F6-94EE-12AC4E7A12F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5924D9-A3BE-45BE-8BDF-6A6A82A19ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5924D9-A3BE-45BE-8BDF-6A6A82A19ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5924D9-A3BE-45BE-8BDF-6A6A82A19ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5924D9-A3BE-45BE-8BDF-6A6A82A19ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3F5A27-3C62-4D0E-A351-1E3C1F22ACAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3F5A27-3C62-4D0E-A351-1E3C1F22ACAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3F5A27-3C62-4D0E-A351-1E3C1F22ACAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3F5A27-3C62-4D0E-A351-1E3C1F22ACAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F5924D9-A3BE-45BE-8BDF-6A6A82A19ECE} = {164E118E-6C59-4D78-9F41-47BFA989E23B}
+		{7B3F5A27-3C62-4D0E-A351-1E3C1F22ACAD} = {164E118E-6C59-4D78-9F41-47BFA989E23B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3199DB0D-48CE-4EBF-8754-136832825EA3}
+	EndGlobalSection
+EndGlobal

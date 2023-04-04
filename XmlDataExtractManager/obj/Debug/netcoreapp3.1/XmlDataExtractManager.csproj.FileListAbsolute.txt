@@ -1,0 +1,14 @@
+D:\dev\xmlimporttask\XmlDataExtractManager\obj\Debug\netcoreapp3.1\XmlDataExtractManager.csproj.AssemblyReference.cache
+D:\dev\xmlimporttask\XmlDataExtractManager\obj\Debug\netcoreapp3.1\XmlDataExtractManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\xmlimporttask\XmlDataExtractManager\obj\Debug\netcoreapp3.1\XmlDataExtractManager.AssemblyInfoInputs.cache
+D:\dev\xmlimporttask\XmlDataExtractManager\obj\Debug\netcoreapp3.1\XmlDataExtractManager.AssemblyInfo.cs
+D:\dev\xmlimporttask\XmlDataExtractManager\obj\Debug\netcoreapp3.1\XmlDataExtractManager.csproj.CoreCompileInputs.cache
+D:\dev\xmlimporttask\XmlDataExtractManager\bin\Debug\netcoreapp3.1\XmlDataExtractManager.deps.json
+D:\dev\xmlimporttask\XmlDataExtractManager\bin\Debug\netcoreapp3.1\XmlDataExtractManager.dll
+D:\dev\xmlimporttask\XmlDataExtractManager\bin\Debug\netcoreapp3.1\XmlDataExtractManager.pdb
+D:\dev\xmlimporttask\XmlDataExtractManager\bin\Debug\netcoreapp3.1\Data.Repository.dll
+D:\dev\xmlimporttask\XmlDataExtractManager\bin\Debug\netcoreapp3.1\Microsoft.BizTalk.XPathReader.dll
+D:\dev\xmlimporttask\XmlDataExtractManager\bin\Debug\netcoreapp3.1\Data.Repository.pdb
+D:\dev\xmlimporttask\XmlDataExtractManager\obj\Debug\netcoreapp3.1\XmlDataExtractManager.csproj.CopyComplete
+D:\dev\xmlimporttask\XmlDataExtractManager\obj\Debug\netcoreapp3.1\XmlDataExtractManager.dll
+D:\dev\xmlimporttask\XmlDataExtractManager\obj\Debug\netcoreapp3.1\XmlDataExtractManager.pdb

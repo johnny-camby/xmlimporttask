@@ -1,0 +1,22 @@
+{
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Error",
+      "Override": {
+        "Squirrel": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Console"
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "Log\\xml_importer_logs.txt",
+          "rollingInterval": "Day"
+        }
+      }      
+    ]
+  }
+}

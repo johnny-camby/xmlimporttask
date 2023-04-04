@@ -1,0 +1,10 @@
+D:\dev\xmlimporttask\Data.Repository\bin\Debug\netcoreapp3.1\Data.Repository.deps.json
+D:\dev\xmlimporttask\Data.Repository\bin\Debug\netcoreapp3.1\Data.Repository.dll
+D:\dev\xmlimporttask\Data.Repository\bin\Debug\netcoreapp3.1\Data.Repository.pdb
+D:\dev\xmlimporttask\Data.Repository\obj\Debug\netcoreapp3.1\Data.Repository.csproj.AssemblyReference.cache
+D:\dev\xmlimporttask\Data.Repository\obj\Debug\netcoreapp3.1\Data.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\xmlimporttask\Data.Repository\obj\Debug\netcoreapp3.1\Data.Repository.AssemblyInfoInputs.cache
+D:\dev\xmlimporttask\Data.Repository\obj\Debug\netcoreapp3.1\Data.Repository.AssemblyInfo.cs
+D:\dev\xmlimporttask\Data.Repository\obj\Debug\netcoreapp3.1\Data.Repository.csproj.CoreCompileInputs.cache
+D:\dev\xmlimporttask\Data.Repository\obj\Debug\netcoreapp3.1\Data.Repository.dll
+D:\dev\xmlimporttask\Data.Repository\obj\Debug\netcoreapp3.1\Data.Repository.pdb
