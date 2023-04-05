@@ -66,12 +66,11 @@ namespace Data.Repository.Repository
             return (await _ctx.SaveChangesAsync() > 0);
         }
 
-#pragma warning disable 1998
         public async Task UpdateAsync(ShipInfo entity)
         {
-            //no implementation required because of the entity tracking by the dbcontext.
+            _ctx.ShipInfo.Update(entity);
+            await SaveAsync();
         }
-#pragma warning restore 1998
     }
 
 }

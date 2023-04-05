@@ -66,11 +66,11 @@ namespace Data.Repository.Repository
             return (await _ctx.SaveChangesAsync() > 0);
         }
 
-#pragma warning disable 1998
+
         public async Task UpdateAsync(FullAddress entity)
         {
-            //no implementation required because of the entity tracking by the dbcontext.
+            _ctx.FullAddress.Update(entity);
+            await SaveAsync();
         }
-#pragma warning restore 1998
     }
 }

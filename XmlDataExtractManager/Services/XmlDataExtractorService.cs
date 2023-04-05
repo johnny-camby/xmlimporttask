@@ -35,11 +35,11 @@ namespace XmlDataExtractManager.Services
 
             XElement xelement = XElement.Parse(xmlDoc.OuterXml);
 
-            await ExtractCustomers(xelement);
-            await ExtractOrders(xelement);
+            await ExtractCustomersAsync(xelement);
+            await ExtractOrdersAsync(xelement);
         }
 
-        private async Task ExtractCustomers(XElement xelement)
+        private async Task ExtractCustomersAsync(XElement xelement)
         {
             var customerElements = xelement.Descendants("Customer");
 
@@ -68,7 +68,7 @@ namespace XmlDataExtractManager.Services
             }
         }
 
-        private async Task ExtractOrders(XElement xelement)
+        private async Task ExtractOrdersAsync(XElement xelement)
         {
             var orderElements = xelement.Descendants("Order");
 

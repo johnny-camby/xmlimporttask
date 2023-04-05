@@ -66,12 +66,24 @@ namespace Data.Repository.Repository
             return (await _ctx.SaveChangesAsync() > 0);
         }
 
-#pragma warning disable 1998
         public async Task UpdateAsync(Order entity)
         {
-            //no implementation required because of the entity tracking by the dbcontext.
+            var shipInfo = new ShipInfo 
+            {
+                ShipAddress = entity.ShipInfo.ShipAddress,
+                ShipCity = entity.ShipInfo.ShipCity,
+                ShipCountry = entity.ShipInfo.ShipCountry,
+                ShipInfoId = entity.ShipInfoId,
+                ShipName = entity.ShipInfo.ShipName,
+                ShippedDate  = entity.ShipInfo.ShippedDate,
+                ShipPostalCode = entity.ShipInfo.ShipPostalCode,
+                ShipRegion = entity.ShipInfo.ShipRegion,
+                ShipVia = entity.ShipInfo.ShipVia,
+                Freight = entity.ShipInfo.Freight                
+            };
+            _ctx.ShipInfo.Update(shipInfo);
+            _ctx.Entry(entity).State = EntityState.Modified;
+            await SaveAsync();
         }
-#pragma warning restore 1998
     }
-
 }

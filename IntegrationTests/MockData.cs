@@ -29,6 +29,12 @@ namespace IntegrationTests
             return fakerCustomer;
         }
 
+        public static Customer GenerateRandomCustomer(Guid id)
+        {
+            var customer = GetCustomerFaker(id).Generate();
+            return customer;
+        }
+
         public static Faker<Customer> GetCustomerFaker(Guid id, Guid fullAddressId)
         {
             var fakerFullAddress = new Faker<FullAddress>()
@@ -50,13 +56,7 @@ namespace IntegrationTests
                 .RuleFor(c => c.FullAddress, () => fakerFullAddress)
                 .RuleFor(c => c.FullAddressId, (f, o) => o.FullAddress.FullAddressId);
             return fakerCustomer;
-        }
-
-        public static Customer GenerateRandomCustomer(Guid id)
-        {
-            var customer = GetCustomerFaker(id).Generate();
-            return customer;
-        }
+        }        
 
         public static Customer GenerateRandomFullAddress(Guid id, Guid fullAddressId)
         {
