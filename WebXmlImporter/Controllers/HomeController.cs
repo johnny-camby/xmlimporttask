@@ -110,7 +110,7 @@ namespace WebXmlImporter.Controllers
                     await _customerBusinessService.SaveAsync();
                     return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException  ex)
+                catch (DbUpdateConcurrencyException ex)
                 {
                     Log.Error(ex, "Unable to save changes ");
                 }
@@ -147,22 +147,25 @@ namespace WebXmlImporter.Controllers
         [HttpPost]
         public async Task<IActionResult> UploadXmlAsync(IFormFile file)
         {
-            try
+            if (file != null)
             {
-                var (isExisting, xmlfile) = await _bufferedFileUploadService.UploadFile(file);
-                if (!string.IsNullOrEmpty(xmlfile))
+                try
                 {
-                    ViewBag.Message = "File Upload Successful";
-                    await _xmlDataExtractorService.ProcessXmlAsync(xmlfile);
+                    var (isExisting, xmlfile) = await _bufferedFileUploadService.UploadFile(file);
+                    if (!string.IsNullOrEmpty(xmlfile))
+                    {
+                        ViewBag.Message = "File Upload Successful";
+                        await _xmlDataExtractorService.ProcessXmlAsync(xmlfile);
+                    }
+                    else
+                    {
+                        Log.Information("Not proper xml file");
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    Log.Information("Not proper xml file");
+                    Log.Error(ex, "File Upload Failed");
                 }
-            }
-            catch (Exception ex)
-            {
-                Log.Error(ex, "File Upload Failed");
             }
 
             return RedirectToAction(nameof(Index));
